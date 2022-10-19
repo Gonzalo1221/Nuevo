@@ -35,7 +35,7 @@ public class Login extends javax.swing.JFrame {
         Pass = new javax.swing.JPasswordField();
         Ingresar = new javax.swing.JButton();
         Retornar = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        Nuevo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -51,7 +51,7 @@ public class Login extends javax.swing.JFrame {
         Retornar.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 12)); // NOI18N
         Retornar.setText("Retornar");
 
-        jButton1.setText("jButton1");
+        Nuevo.setText("Nuevo");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -73,7 +73,7 @@ public class Login extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(63, 63, 63)
-                        .addComponent(jButton1)
+                        .addComponent(Nuevo)
                         .addGap(23, 23, 23))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(Ingresar)
@@ -87,7 +87,7 @@ public class Login extends javax.swing.JFrame {
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(jButton1))
+                    .addComponent(Nuevo))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(User, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -143,12 +143,12 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Ingresar;
+    private javax.swing.JButton Nuevo;
     public javax.swing.JPasswordField Pass;
     public javax.swing.JLabel Pasword;
     public javax.swing.JButton Retornar;
     public javax.swing.JTextField User;
     public javax.swing.JLabel Usuario;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
